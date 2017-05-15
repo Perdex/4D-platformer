@@ -3,6 +3,7 @@ package platformer4d;
 
 /**
  * a quaternion object for all your placing needs
+ * don't look at this horrifying spaghetti!
  * @author Perttu
  */
 public class Quat {

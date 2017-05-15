@@ -36,7 +36,7 @@ public class Platformer4D extends JPanel{
         createProjection(Dimension.x, Dimension.y, Dimension.z, Dimension.w, game);
         createProjection(Dimension.z, Dimension.w, Dimension.x, Dimension.y, game);
         createProjection(Dimension.x, Dimension.z, Dimension.y, Dimension.w, game);
-        createProjection(Dimension.y, Dimension.w, Dimension.x, Dimension.z, game);
+        createProjection(Dimension.w, Dimension.y, Dimension.x, Dimension.z, game);
         createProjection(Dimension.x, Dimension.w, Dimension.y, Dimension.z, game);
         createProjection(Dimension.y, Dimension.z, Dimension.x, Dimension.w, game);
         

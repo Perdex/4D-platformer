@@ -1,10 +1,10 @@
 package platformer4d;
 
-import sun.awt.AWTAutoShutdown;
 
 
 /**
- * a quaternion object for all your placing needs
+ * a quaternion object for all your floating-point placing needs
+ * don't look at this horrifying spaghetti!
  * @author Perttu
  */
 public class QuatD {

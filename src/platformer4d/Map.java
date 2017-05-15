@@ -28,11 +28,13 @@ public class Map {
                         i == size.x - 1 || j == size.y - 1 || k == size.z - 1 || l == size.w - 1)
                     val = true;
                 else
-                    val = r.nextFloat() < 0.65f;
+                    val = r.nextFloat() < 0.60f;
                 map[i][j][k][l] = val;
                 
-                if(!val && r.nextFloat() < 0.02f)
+                if(!val && r.nextFloat() < 0.02f){
                     stars.add(new Quat(i, j, k, l));
+                    //TODO add a route to each one
+                }
             }
         
         
